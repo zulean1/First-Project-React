@@ -1,9 +1,13 @@
 import React from 'react';
 
-function TodoItem() {
+function TodoItem(props) {
 
     return (
-        <h2>Listado</h2>
+        <li>
+            <span>C</span>
+            <p>{props.text}</p>
+            <span>X</span>
+        </li>
 
     );
     

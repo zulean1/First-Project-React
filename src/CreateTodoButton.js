@@ -1,9 +1,9 @@
 import React from 'react';
 
-function CreateTodoButtom() {
+function CreateTodoButtom(props) {
 
     return (
-        <h2>Listado</h2>
+        <button>+</button>
 
     );
     
